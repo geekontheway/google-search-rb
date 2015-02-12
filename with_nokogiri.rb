@@ -53,7 +53,7 @@ class Search
 end
 
 ###执行入口
-Search.new.get_keyword
+Search.new(ARGV.join(' ')).process_searching
 
 
 
